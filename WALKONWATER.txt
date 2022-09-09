@@ -1,0 +1,10 @@
+if state then
+            for _,v in pairs(game.Workspace.Water:GetChildren()) do
+                v.CanCollide = true
+                end
+        else
+            for _,v in pairs(game.Workspace.Water:GetChildren()) do
+                v.CanCollide = false
+                end
+        end
+    end)
